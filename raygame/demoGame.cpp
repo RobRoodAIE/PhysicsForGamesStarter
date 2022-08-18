@@ -51,5 +51,6 @@ void demoGame::onTick()
 void demoGame::onDraw() const
 {
 	DrawText("Left-click to add a dynamic ball to the scene.", 5, 5, 20, BLACK);
-	DrawText("Right-click to add a static box to the scene.", 5, 25, 20, BLACK);
+	DrawText("Right-click to add a small dynamic box to the scene.", 5, 25, 20, BLACK);
+	DrawText("Middle-click to add a static box to the scene.", 5, 45, 20, BLACK);
 }
